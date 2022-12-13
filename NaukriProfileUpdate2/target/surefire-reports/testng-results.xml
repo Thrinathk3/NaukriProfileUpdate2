@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T18:44:03 IST" name="Suite" finished-at="2022-11-11T18:48:20 IST" duration-ms="257481">
+    <groups>
+    </groups>
+    <test started-at="2022-11-11T18:44:03 IST" name="Test" finished-at="2022-11-11T18:48:20 IST" duration-ms="257481">
+      <class name="com.naukri.qa.testcasses.ProfileSummaryUpdateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.ProfileSummaryUpdateTest@2928854b]" started-at="2022-11-11T18:47:09 IST" name="setup" finished-at="2022-11-11T18:47:51 IST" duration-ms="41915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="psUpdatingTest()[pri:0, instance:com.naukri.qa.testcasses.ProfileSummaryUpdateTest@2928854b]" started-at="2022-11-11T18:47:51 IST" name="psUpdatingTest" finished-at="2022-11-11T18:48:18 IST" duration-ms="26927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- psUpdatingTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.ProfileSummaryUpdateTest@2928854b]" started-at="2022-11-11T18:48:18 IST" name="teardown" finished-at="2022-11-11T18:48:20 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naukri.qa.testcasses.ProfileSummaryUpdateTest -->
+      <class name="com.naukri.qa.testcasses.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.LoginPageTest@1198b989]" started-at="2022-11-11T18:44:03 IST" name="setup" finished-at="2022-11-11T18:44:33 IST" duration-ms="29884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:3, instance:com.naukri.qa.testcasses.LoginPageTest@1198b989]" started-at="2022-11-11T18:44:33 IST" name="loginTest" finished-at="2022-11-11T18:44:59 IST" duration-ms="26250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.LoginPageTest@1198b989]" started-at="2022-11-11T18:44:59 IST" name="teardown" finished-at="2022-11-11T18:45:01 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naukri.qa.testcasses.LoginPageTest -->
+      <class name="com.naukri.qa.testcasses.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.HomePageTest@65d6b83b]" started-at="2022-11-11T18:45:01 IST" name="setup" finished-at="2022-11-11T18:45:45 IST" duration-ms="44169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:com.naukri.qa.testcasses.HomePageTest@65d6b83b]" started-at="2022-11-11T18:45:45 IST" name="verifyUserNameTest" finished-at="2022-11-11T18:45:45 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.HomePageTest@65d6b83b]" started-at="2022-11-11T18:45:45 IST" name="teardown" finished-at="2022-11-11T18:45:47 IST" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naukri.qa.testcasses.HomePageTest -->
+      <class name="com.naukri.qa.testcasses.UpdateProfileTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@d706f19]" started-at="2022-11-11T18:45:47 IST" name="setup" finished-at="2022-11-11T18:46:27 IST" duration-ms="40333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="resumeUpdateTest()[pri:1, instance:com.naukri.qa.testcasses.UpdateProfileTest@d706f19]" started-at="2022-11-11T18:46:27 IST" name="resumeUpdateTest" finished-at="2022-11-11T18:47:08 IST" duration-ms="40742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeUpdateTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@d706f19]" started-at="2022-11-11T18:47:08 IST" name="teardown" finished-at="2022-11-11T18:47:09 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naukri.qa.testcasses.UpdateProfileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

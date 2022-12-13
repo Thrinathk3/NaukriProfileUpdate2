@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.naukri.qa.testcasses.UpdateProfileTest">
+        <methods>
+          <include name="verifyProfilePageTitleTest"/>
+          <include name="setup"/>
+          <include name="resumeUpdateTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.naukri.qa.testcasses.UpdateProfileTest -->
+      <class name="com.naukri.qa.testcasses.LoginPageTest">
+        <methods>
+          <include name="headerTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.naukri.qa.testcasses.LoginPageTest -->
+      <class name="com.naukri.qa.testcasses.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.naukri.qa.testcasses.HomePageTest -->
+      <class name="com.naukri.qa.testcasses.ProfileSummaryUpdateTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="psUpdatingTest"/>
+        </methods>
+      </class> <!-- com.naukri.qa.testcasses.ProfileSummaryUpdateTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

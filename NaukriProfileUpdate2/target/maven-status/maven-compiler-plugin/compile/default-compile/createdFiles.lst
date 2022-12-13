@@ -1,0 +1,13 @@
+com\naukri\qa\pages\SignUpPage.class
+com\naukri\qa\pages\ProfileSummaryPage.class
+com\naukri\qa\base\TestBase.class
+com\naukri\qa\util\TestUtil.class
+com\naukri\qa\pages\LoginPage.class
+com\naukri\qa\pages\LogoutPage.class
+com\naukri\qa\pages\SearchPage.class
+com\naukri\qa\util\WaitPage.class
+com\naukri\qa\pages\HomePage.class
+com\naukri\qa\pages\ProfileSummaryUpdatePage.class
+com\naukri\qa\pages\JobsPage.class
+com\naukri\qa\pages\UpdateProfile.class
+com\naukri\qa\util\WebEventListener.class
