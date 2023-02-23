@@ -28,7 +28,7 @@ public class UpdateProfileTest extends TestBase{
 			logout =new LogoutPage();
 			updateProfile = new UpdateProfile();
 			testutil = new TestUtil();
-			loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+			loginPage.login(prop.getProperty("username4"), prop.getProperty("password4"));
 			updateProfile.updateMyProfile();
 		}
 		@Test(enabled=false)
@@ -36,7 +36,7 @@ public class UpdateProfileTest extends TestBase{
 			String pt=updateProfile.verifyProfilePageTitle();
 			Assert.assertEquals(pt, prop.getProperty("profilepagetitle"));
 		}
-		@Test(enabled=false)
+		@Test(enabled=true)
 		public void resumeUpdateTest() throws InterruptedException {
 			String date=updateProfile.resumeUpdate();
 			String currentDate = TestUtil.date();

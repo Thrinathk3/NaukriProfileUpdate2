@@ -32,7 +32,7 @@ public class TestBase {
 	public static void initialization() {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver1.exe");
 			driver = new ChromeDriver();
 		}else if(browserName.equals("firfox")){
 			System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");

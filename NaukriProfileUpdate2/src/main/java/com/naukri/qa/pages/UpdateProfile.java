@@ -35,7 +35,7 @@ public class UpdateProfile extends TestBase{
 	}
 	public String resumeUpdate() throws InterruptedException {
 		Thread.sleep(20000);
-		updateResume.sendKeys("C:\\Users\\tingu\\eclipse-workspace\\NaukriProfileUpdate\\resource\\Thrinath Resume.docx");
+		updateResume.sendKeys("C:\\Users\\tingu\\eclipse-workspace\\NaukriProfileUpdate\\resource\\Thrinath_K.pdf");
 		Thread.sleep(20000);
 		return updateOn.getText();
 	}
