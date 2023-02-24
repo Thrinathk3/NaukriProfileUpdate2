@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-23T15:57:27 IST" name="Default suite" finished-at="2023-02-23T15:58:55 IST" duration-ms="88141">
+  <suite started-at="2023-02-24T16:50:27 IST" name="Default suite" finished-at="2023-02-24T16:51:52 IST" duration-ms="85077">
     <groups>
     </groups>
-    <test started-at="2023-02-23T15:57:27 IST" name="Default test" finished-at="2023-02-23T15:58:55 IST" duration-ms="88141">
+    <test started-at="2023-02-24T16:50:27 IST" name="Default test" finished-at="2023-02-24T16:51:52 IST" duration-ms="85077">
       <class name="com.naukri.qa.testcasses.UpdateProfileTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-23T15:57:27 IST" name="setup" finished-at="2023-02-23T15:58:11 IST" duration-ms="44140" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-24T16:50:27 IST" name="setup" finished-at="2023-02-24T16:51:10 IST" duration-ms="42867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="resumeUpdateTest()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-23T15:58:12 IST" name="resumeUpdateTest" finished-at="2023-02-23T15:58:52 IST" duration-ms="40524" status="PASS">
+        <test-method signature="resumeUpdateTest()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-24T16:51:10 IST" name="resumeUpdateTest" finished-at="2023-02-24T16:51:51 IST" duration-ms="40607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resumeUpdateTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-23T15:58:52 IST" name="teardown" finished-at="2023-02-23T15:58:55 IST" duration-ms="3334" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-24T16:51:51 IST" name="teardown" finished-at="2023-02-24T16:51:52 IST" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
