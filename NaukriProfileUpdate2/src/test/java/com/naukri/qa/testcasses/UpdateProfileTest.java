@@ -40,7 +40,7 @@ public class UpdateProfileTest extends TestBase{
 		public void resumeUpdateTest() throws InterruptedException {
 			String date=updateProfile.resumeUpdate();
 			String currentDate = TestUtil.date();
-			System.out.println(currentDate);
+			System.out.println("Resume Updated on "+currentDate);
 			Assert.assertEquals(date, "Uploaded on " +currentDate );
 		}
 		
