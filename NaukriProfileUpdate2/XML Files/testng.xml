@@ -3,10 +3,14 @@
 <suite name="Suite" verbose="5">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.naukri.qa.testcasses.LoginPageTest" />
-			<class name="com.naukri.qa.testcasses.HomePageTest" />
+		
 			<class name="com.naukri.qa.testcasses.UpdateProfileTest" />
-			<class name="com.naukri.qa.testcasses.ProfileSummaryUpdateTest" />
+			<class name ="com.naukri.qa.testcasses.ProfileActionTest"/>
+		<!--<class name="com.naukri.qa.testcasses.LoginPageTest" />
+			<class name="com.naukri.qa.testcasses.HomePageTest" />
+			
+			<class name="com.naukri.qa.testcasses.ProfileSummaryUpdateTest" /> -->
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
