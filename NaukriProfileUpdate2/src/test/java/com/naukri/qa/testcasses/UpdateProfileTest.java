@@ -38,7 +38,7 @@ public class UpdateProfileTest extends TestBase{
 		}
 		@Test(enabled=true)
 		public void resumeUpdateTest() throws InterruptedException {
-			String date=updateProfile.resumeUpdate();
+			String date=updateProfile.resumeUpdate(); 		
 			String currentDate = TestUtil.date();
 			System.out.println("Resume Updated on "+currentDate);
 			Assert.assertEquals(date, "Uploaded on " +currentDate );
@@ -49,6 +49,4 @@ public class UpdateProfileTest extends TestBase{
 			logout.logout();
 			driver.quit();
 		}
-		
-			
 }

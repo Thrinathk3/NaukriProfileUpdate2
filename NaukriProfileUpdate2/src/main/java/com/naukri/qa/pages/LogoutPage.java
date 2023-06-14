@@ -11,7 +11,7 @@ public class LogoutPage extends TestBase{
 	@FindBy(xpath="//div[@class='nI-gNb-drawer']")
 	WebElement drawer;
 	
-	@FindBy(xpath="//a[text()='Logout']")
+	@FindBy(xpath="//a[@title='Logout']")
 	WebElement logout;
 	
 	public LogoutPage() {

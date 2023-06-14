@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T20:42:58 IST" name="Default suite" finished-at="2023-02-28T20:44:17 IST" duration-ms="79338">
+  <suite started-at="2023-03-23T11:58:00 IST" name="Default suite" finished-at="2023-03-23T11:59:03 IST" duration-ms="62663">
     <groups>
     </groups>
-    <test started-at="2023-02-28T20:42:58 IST" name="Default test" finished-at="2023-02-28T20:44:17 IST" duration-ms="79338">
-      <class name="com.naukri.qa.testcasses.UpdateProfileTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-28T20:42:58 IST" name="setup" finished-at="2023-02-28T20:43:36 IST" duration-ms="37709" status="PASS">
+    <test started-at="2023-03-23T11:58:00 IST" name="Default test" finished-at="2023-03-23T11:59:03 IST" duration-ms="62663">
+      <class name="com.naukri.qa.testcasses.ProfileActionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naukri.qa.testcasses.ProfileActionTest@3d680b5a]" started-at="2023-03-23T11:58:00 IST" name="setup" finished-at="2023-03-23T11:58:56 IST" duration-ms="55670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="resumeUpdateTest()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-28T20:43:36 IST" name="resumeUpdateTest" finished-at="2023-02-28T20:44:16 IST" duration-ms="40223" status="PASS">
+        <test-method signature="searchTest()[pri:0, instance:com.naukri.qa.testcasses.ProfileActionTest@3d680b5a]" started-at="2023-03-23T11:58:56 IST" name="searchTest" finished-at="2023-03-23T11:59:01 IST" duration-ms="5273" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resumeUpdateTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naukri.qa.testcasses.UpdateProfileTest@4b5d6a01]" started-at="2023-02-28T20:44:16 IST" name="teardown" finished-at="2023-02-28T20:44:17 IST" duration-ms="1335" status="PASS">
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.naukri.qa.testcasses.ProfileActionTest@3d680b5a]" started-at="2023-03-23T11:59:01 IST" name="terminate" finished-at="2023-03-23T11:59:03 IST" duration-ms="1535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.naukri.qa.testcasses.UpdateProfileTest -->
+        </test-method> <!-- terminate -->
+      </class> <!-- com.naukri.qa.testcasses.ProfileActionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

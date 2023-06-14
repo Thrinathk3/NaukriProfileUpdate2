@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.naukri.qa.testcasses.UpdateProfileTest">
+      <class name="com.naukri.qa.testcasses.ProfileActionTest">
         <methods>
           <include name="setup"/>
-          <include name="resumeUpdateTest"/>
-          <include name="teardown"/>
+          <include name="searchTest"/>
+          <include name="terminate"/>
         </methods>
-      </class> <!-- com.naukri.qa.testcasses.UpdateProfileTest -->
+      </class> <!-- com.naukri.qa.testcasses.ProfileActionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
